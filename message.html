@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Comprendre le fonctionnement d'OPDS</title>
-    <meta name="description" content="Découvrez les trois fonctionnalités clés du standard OPDS : catalogue, bibliothèque et message." /> 
+    <title>Message OPDS</title>
+    <meta name="description" content="Un message facilite la tâche des clients OPDS et de l'utilisateur." /> 
     
     <!-- Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,30 +50,38 @@
       
       <!-- Presentation -->
       <div class="row-fluid append1">
-        <h1>Comprendre le fonctionnement d'OPDS</h1>
+        <h1>Message</h1>
         <hr />
-        <p class="lead">OPDS est basé sur trois fonctionnalités fondamentales qui bien qu'indépendantes les unes des autres, se basent toutes sur la même base technologique. Chaque client, chaque distributeur de contenus, peut implémenter à sa guise une partie ou l'ensemble d'entre elles selon ses besoins.</p>
+        <p class="lead">Un message facilite la tâche des clients OPDS et de l'utilisateur. En un clic il permet de&nbsp;: télécharger votre contenu, fournir des métadonnées, ajouter votre bibliothèque et découvrir un catalogue.</p>
       </div>
 
       <!-- Main content -->
-      <div class="row-fluid">
-        <div class="span4 append1">
-          <img src="img/shelves.png" alt="Catalogue" title="Catalogue" />
-          <h2>Catalogue</h2>
-          <p>Un moyen facile de naviguer, rechercher et télécharger dans une collection importante de contenus. Les catalogues sont conçus comme un espace de médiation respectant la logique de navigation de leurs créateurs.</p>
-          <p><a class="btn" href="catalogue.html">En savoir plus &raquo;</a></p>
+      <div class="row-fluid append1">
+        
+        <div class="featurette append1">
+          <img class="featurette-image pull-right" src="img/illustration5.png" alt="Un client s'adresse au libraire pour une recommandation" />
+          <h2 class="featurette-heading">Choisir un livre</h2>
+          <p class="lead">Imaginez entrer chez votre libraire de quartier, mais pour lui acheter un livre numérique.</p>
+          <p class="lead">Comme pour un livre papier, vous pouvez lui demander des recommandations et flâner entre les rayons.</p>
         </div>
-        <div class="span4 append1">
-          <img src="img/shelves.png" alt="Bibliothèque" title="Bibliothèque" />
-          <h2>Bibliothèque</h2>
-          <p>Un espace où l'on peut retrouver l'ensemble des contenus achetés, empruntés ou auxquels on s'est abonnés au préalable. La bibliothèque permet de changer facilement de périphérique, sans perdre ses contenus.</p>
-       </div>
-        <div class="span4 append1">
-          <img src="img/callbacks.png" alt="Message" title="Message" />
-          <h2>Message</h2>
-          <p>Un message facilite la tâche des clients OPDS et de l'utilisateur. En un clic il permet de&nbsp;: télécharger votre contenu, fournir des métadonnées, ajouter votre bibliothèque et découvrir un catalogue.</p>
-          <p><a class="btn" href="message.html">En savoir plus &raquo;</a></p>
+        
+        <div class="mini-featurette append2">
+          <img class="mini-featurette-image pull-left" src="img/illustration6.png" alt="Le client achète son livre et le reçoit immédiatement" />
+          <h2 class="featurette-heading">Acheter</h2>
+          <p class="lead">Une fois que son choix est fait, le client paie pour son livre numérique comme il le ferait pour un livre papier.</p>
+          <p class="lead">Pas besoin de créer un compte, il lui suffit de donner son nom et son adresse mail pour immédiatement reçevoir un lien par mail (vers le message OPDS).</p>
+          <p class="lead">En ouvrant ce lien, son client OPDS reçoit les métadonnées du livre et lance son téléchargement automatique.</p>
         </div>
+          
+        <div class="mini-featurette">
+          <img class="mini-featurette-image pull-right" src="img/illustration7.png" alt="Depuis la tablette du client, la bibliothèque personnelle et le libraire s'affichent" />
+          <h2 class="featurette-heading">Bibliothèque personnelle et catalogue</h2>
+          <p class="lead">En ouvrant le lien, sa bibliothèque personnelle et le catalogue du libraire sont automatiquement ajoutés.</p>
+          <p class="lead">Toutes ses prochaines acquisitions (achat chez un libraire, emprunt en bibliothèque) seront désormais automatiquement téléchargées sur son périphérique.</p>
+          <p class="lead">Il peut désormais retrouver tout le catalogue de ce libraire où il reçoit régulièrement des recommandations personnalisées de celui-ci.</p>
+        </div>
+        
+        
       </div>
 
       <hr />
